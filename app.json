@@ -18,6 +18,10 @@
       "description": "Dapatkan String Session di Grup » https://t.me/AyiinXdSupport » Lalu ketik /get string",
       "required": true
     },
+    "DATABASE_URL": {
+      "description": "Buat Database mu disini » https://elephant.com/",
+      "required": true
+    },
     "HEROKU_APP_NAME": {
       "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
       "required": true
@@ -32,14 +36,6 @@
       "required": false
     }
   },
-  "addons": [
-    {
-    "plan": "heroku-postgresql",
-      "options": {
-        "version": "12"
-      }
-    }
-  ],
   "buildpacks": [
     {
       "url": "heroku/python"
@@ -51,7 +47,7 @@
   "formation": {
     "ayiin": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     }
   }
 }
