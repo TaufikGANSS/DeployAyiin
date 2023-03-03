@@ -1,11 +1,11 @@
 #==============×==============#
 #     Created by: Alfa-Ex
 #Dockerfile for: Ayiin-Userbot
-#=========× AyiinXd ×=========#
+#=========× Joshua ×=========#
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Ayiin-Userbot https://github.com/AyiinXd/Ayiin-Userbot /home/ayiinuserbot/ \
+RUN git clone -b Ayiin-Userbot https://github.com/TaufikGANSS/Joshua-Userbot /home/ayiinuserbot/ \
     && chmod 777 /home/ayiinuserbot \
     && mkdir /home/ayiinuserbot/bin/
 
